@@ -21,3 +21,7 @@ body {
 .userinput form {
   padding: 3px;
 }
+
+#output-user-info, #suggestion1, #suggestion2, #suggestion3 {
+  display: none;
+}
