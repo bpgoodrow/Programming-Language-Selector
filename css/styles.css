@@ -9,4 +9,11 @@ body {
 
 .header {
   border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.userinfo {
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
