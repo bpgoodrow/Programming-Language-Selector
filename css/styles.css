@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+  display: block;
+  margin: auto;
+  width: 80%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.header {
+  border-bottom: 2px solid black;
+}
