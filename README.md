@@ -4,12 +4,13 @@ By Ben Goodrow
 This is a html/css/javascript page to suggest programming languages based on user input
 
 ## Link to GitHubPages
-[](link goes here)
+[https://bpgoodrow.github.io/Programming-Language-Selector/](https://wwww.bpgoodrow.github.io/Programming-Language-Selector/)
 
 ## Technololgies Used
 * HTML
 * CSS
 * Javascript
+* jQuery
 
 ## Description
 This page will gather input from the user via forms, then suggest a programming language to learn.
@@ -18,10 +19,10 @@ This page will gather input from the user via forms, then suggest a programming 
 * Clone this repository to your desktop.
 * Navigate to the top level of the portfolio-landing-page-directory.
 * Open index.html in your browser.
-* Additionally open []() in your web browser.
+* Additionally open [https://bpgoodrow.github.io/Programming-Language-Selector/](https://wwww.bpgoodrow.github.io/Programming-Language-Selector/) in your web browser.
 
 ## Known Bugs
-* User Input forms return multiple suggestions.
+* User Input forms do not return correct selection
 * User Input forms do not clear
 
 ## License
