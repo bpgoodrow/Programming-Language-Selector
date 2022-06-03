@@ -19,7 +19,7 @@
 
     <div class="userinfo">
       <h3>Basic Information</h3>
-      <form>
+      <form id="info">
         <div class="form-group">
           <label for="userName">First and last name</label>
           <input type="userName" class="form-control" id="userNameInput" aria-describedby="emailHelp">
@@ -27,34 +27,35 @@
         <div class="form-group">
           <label for="email">Email</label>
           <input type="email" class="form-control" id="emailInput">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your information with anyone else.</small>
         </div>
         <div class="form-group">
           <label for="calender">Date of birth:</label>
           <input id="calender" class="form-control" type="date">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your information with anyone else.</small>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary" onclick="thanks()">Submit</button>
       </form>
+      <div id="outputinfo"></div>
     </div>
 
     <div class="userinput">
       <h3>User Input</h3>
       <p>Now the fun part! Make selections from the drop down boxes and we will generate a suggested programming language to learn.</p>
       <form>
-        <h4>What's your learning style?</h4>
+        <h5>What's your learning style?</h5>
         <select class="form-control" id="learning-style">
           <option>Logical</option>
           <option>Creative</option>
         </select>
-        <h4>Are you an optimist or a pessimist?</h4>
+        <h5>Are you an optimist or a pessimist?</h5>
         <select class="form-control" id="opt-pes">
           <option>Optimist</option>
           <option>Pessimist</option>
         </select>
-        <h4>Do you like the rain or the sun?</h4>
+        <h5>Do you like the rain or the sun?</h5>
         <select class="form-control" id="rain-sun">
-          <option>Optimist</option>
-          <option>Pessimist</option>
+          <option>Rain</option>
+          <option>Sun</option>
         </select>
         <button type="sumbit" class="btn btn-primary">Submit</button>
       </form>
