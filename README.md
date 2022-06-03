@@ -21,7 +21,7 @@ This page will gather input from the user via forms, then suggest a programming 
 * Additionally open []() in your web browser.
 
 ## Known Bugs
-* N/A
+* Basic Information Forms do not clear upon submit button click
 
 ## License
 MIT
