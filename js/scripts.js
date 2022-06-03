@@ -9,16 +9,15 @@ $(document).ready(function() {
   $("form#user-input").submit(function(event) {
     event.preventDefault();
     $("form#user-input").trigger("reset");
-    const learningStyle = $("select#learning-style").val();
-    const optPes = $("select#opt-pes").val();
-    const rainSun = $("select#rain-sun").val();
-    // const option = $("input:option[name=option]:selected").val();
+    const learningStyle = $("#learning-style").val();
+    const optPes = $("#opt-pes").val();
+    const rainSun = $("#rain-sun").val();
 
     if (learningStyle === "Logical") {
       $("#suggestion1").show();
-    } else if (learningstyle === "Creative" && optPes === "Optimist") {
+    } else if (learningStyle === "Creative" && optPes === "Optimist") {
       $("#suggestion2").show();
-    } else (OptPes === "Pessimist"); {
+    } else (optPes === "Pessimist"); {
       $("#suggestion3").show();
     };
   });
