@@ -8,17 +8,16 @@ $(document).ready(function() {
 
   $("form#user-input").submit(function(event) {
     event.preventDefault();
-    $("form#user-input").trigger("reset");
     const learningStyle = $("#learning-style").val();
     const optPes = $("#opt-pes").val();
     const rainSun = $("#rain-sun").val();
 
     if (learningStyle === "Logical") {
-      $("#suggestion1").show();
-    } else if (learningStyle === "Creative" && optPes === "Optimist") {
-      $("#suggestion2").show();
-    } else (optPes === "Pessimist"); {
-      $("#suggestion3").show();
+      $("#suggestion1").show()
+    } else if (optPes === "Optimist") {
+      $("#suggestion2").show()
+    } else if ( rainSun === "Rain") {
+      $("#suggestion3").show()
     };
   });
 });
