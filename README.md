@@ -22,8 +22,7 @@ This page will gather input from the user via forms, then suggest a programming 
 * Additionally open [https://bpgoodrow.github.io/Programming-Language-Selector/](https://wwww.bpgoodrow.github.io/Programming-Language-Selector/) in your web browser.
 
 ## Known Bugs
-* User Input forms do not return correct selection
-* User Input forms do not clear
+* N/A
 
 ## License
 MIT

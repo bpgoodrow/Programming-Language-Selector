@@ -8,15 +8,18 @@ $(document).ready(function() {
 
   $("form#user-input").submit(function(event) {
     event.preventDefault();
+    $("#suggestion1").hide()
+    $("#suggestion2").hide()
+    $("#suggestion3").hide()
     const learningStyle = $("#learning-style").val();
     const optPes = $("#opt-pes").val();
     const rainSun = $("#rain-sun").val();
 
-    if (learningStyle === "Logical") {
+    if (learningStyle === "Logical" && optPes === "Optimist" && rainSun === "Rain") {
       $("#suggestion1").show()
-    } else if (optPes === "Optimist") {
+    } else if (learningStyle === "Creative" || optPes === "Pessimist") {
       $("#suggestion2").show()
-    } else if ( rainSun === "Rain") {
+    } else if ( rainSun === "Sun") {
       $("#suggestion3").show()
     };
   });
